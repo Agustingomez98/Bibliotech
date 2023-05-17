@@ -1,0 +1,28 @@
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+  .menu h2{
+    margin-top:20px;
+    margin-botom:20px;
+  }
+
+  .menu p{
+    margin-botom:30px;
+  }
+
+.contenedorTablas{
+    margin: 150px auto;
+    width: 70%;
+    height: auto;
+}
+
+#tituloTabla{
+    text-height: bold;
+    font-size: 40px;
+}
+
+#eliminar{
+    color:red;
+}

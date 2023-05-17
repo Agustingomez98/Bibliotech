@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 50px;
+    background-image: url(fondoMain.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+header img{
+    width:200px;
+    border-radius:100%
+}
+
+.row{
+    display: flex;
+    margin:15px;
+     
+}
+
+section{
+    flex: 70%;
+    padding: 20px;
+    margin-left:50px;
+}
+
+section label{
+    font-size:20px;
+}
+
+section p {
+    font-size:18px;
+}
+
+
+

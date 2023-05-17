@@ -1,0 +1,40 @@
+.menu{
+    background-image: url(fondoMain.jpg);
+    background-size: cover;
+    min-height: 80vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.carta{
+    display:flex;
+    flex-direction:column;
+    width: 300px;
+    max-height: 400em;
+    background: white;
+    padding: 20px;
+    text-align:center;
+    border-radius:10px;
+}
+
+.carta img{
+    border-radius:100%;
+    width:250px;
+    margin-bottom:20px;
+}
+
+.carta h5{
+    margin-bottom:15px;
+}
+
+@media screen and (max-width:600px){
+    .carta{
+        width:100%;
+    }
+
+    .carta img{
+        width:175px;
+    }
+}
